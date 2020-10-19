@@ -37,7 +37,7 @@ public class Main {
             InstantiationException, IllegalAccessException, InvocationTargetException {
          Object testObj = animal.getDeclaredConstructor().newInstance();
         Method[] methods = testObj.getClass().getDeclaredMethods();
-        //ghbdtdgdhsfh
+
         // делаем проверку что @BeforeSuite и @AfterSuite в единственном экзепляре
         int before = 0;
         int after = 0;
